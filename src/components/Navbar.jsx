@@ -9,7 +9,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="fixed top-0 w-full bg-gray-800">
+    <nav className="fixed top-0 w-full bg-black opacity-50">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link
           to="/"
