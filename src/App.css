@@ -1,4 +1,11 @@
 .home-back-img {
   background-image: url("../img/bmw-m4-new-01.webp");
   height: 75vh;
+  background-size: cover;
+  z-index: -1;
+}
+
+.logo-size {
+  height: 25vh;
+  width: 100%;
 }
