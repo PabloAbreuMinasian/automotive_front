@@ -4,6 +4,8 @@ import NotFound from "./components/views/NotFound";
 import Home from "./components/views/Home";
 import SellCar from "./components/views/SellCar";
 import ShopCars from "./components/views/ShopCars";
+import Contact from "./components/views/Contact";
+import AboutUs from "./components/views/AboutUs";
 
 const router = createBrowserRouter([
   {
@@ -16,16 +18,20 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "",
+        path: "vender",
         element: <SellCar />,
       },
       {
-        path: "",
+        path: "comprar",
         element: <ShopCars />,
       },
       {
-        path: "",
-        element: <Home />,
+        path: "nosotros",
+        element: <AboutUs />,
+      },
+      {
+        path: "contacto",
+        element: <Contact />,
       },
       {
         path: "*",
